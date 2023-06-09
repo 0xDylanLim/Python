@@ -55,3 +55,8 @@ def last(n):
 
 def sort(tuples):
   return sorted(tuples, key=last)
+
+Check a list is empty or not:
+l = []
+if not l:
+  print("List is empty")
